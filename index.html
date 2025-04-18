@@ -12,41 +12,31 @@
 
     
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-DQvkBjpPgn7RC31MCQoOeC9TI2kdqa4+BSgNMNj8v77fdC77Kj5zpWFTJaaAoMbC" crossorigin="anonymous">
 
     <style>
-    .position-relative {
-        position: relative; /* Ensures the parent container is positioned */
-    }
-
-    .position-absolute {
-        position: absolute; /* Positions the text absolutely within the parent */
-        z-index: 10; /* Ensures the text appears on top of the images */
-    }
-
-    .text-white {
-        color: white; /* Ensures the text is visible on darker images */
-    }
-
-    .fw-bold {
-        font-weight: bold; /* Makes the text bold */
-    }
-
-    .display-4 {
-        font-size: 3rem; /* Bootstrap utility for large text */
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adds a shadow for better visibility */
-    }
-</style>
-
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DBFXD4FD36"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-DBFXD4FD36');
-</script>
+        .position-relative {
+            position: relative; /* Ensures the parent container is positioned */
+        }
+    
+        .position-absolute {
+            position: absolute; /* Positions the text absolutely within the parent */
+            z-index: 10; /* Ensures the text appears on top of the images */
+        }
+    
+        .text-white {
+            color: white; /* Ensures the text is visible on darker images */
+        }
+    
+        .fw-bold {
+            font-weight: bold; /* Makes the text bold */
+        }
+    
+        .display-4 {
+            font-size: 3rem; /* Bootstrap utility for large text */
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5); /* Adds a shadow for better visibility */
+        }
+    </style>
 </head>
 <body>
     <!-- Header -->
@@ -64,7 +54,7 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" class="active" target="_parent" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link active"  target="_parent" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                     <li class="nav-item"><a class="nav-link" href="Contact.html">Contact</a></li>
                 </ul>
@@ -74,16 +64,14 @@
 
     <!-- Main Content -->
     
-       
-
-
-    </div>   
 
     <main class="container-fluid my-0">
         <div id="carouselExampleIndicators" class="carousel slide"  data-bs-ride="carousel">
-     <div class="position-absolute top-50 start-50 translate-middle text-center">
-        <h2 class="text-white fw-bold display-4">Welcome</h2>
-    </div>
+
+            <div class="position-absolute top-50 start-50 translate-middle text-center">
+                <h2 class="text-white fw-bold display-4">Welcome</h2>
+            </div>
+
             <div class="carousel-indicators">
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
                 <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
@@ -92,14 +80,15 @@
             <div class="carousel-inner">
                 
                 <div class="carousel-item active">
-                    <img src="https://img.freepik.com/free-photo/fantasy-style-scene-international-day-education_23-2151040317.jpg?uid=R119216580&ga=GA1.1.580236151.1744880179&semt=ais_hybrid&w=740" loading="lazy" class="d-block w-50 w-md-50 w-lg-50 h-50 mx-auto" alt="...">
-                    <p class="mt-3">Image credits: <a href="https://www.freepik.com" target="_blank" rel="noopener noreferrer">Freepik</a></p>
+                    
+                    <img src="https://cdn.pixabay.com/photo/2015/06/23/23/14/laptop-819285_640.jpg" loading="lazy" class="d-block w-50 w-md-50 w-lg-50 h-50 mx-auto" alt="...">
+                    <p class="mt-4">Image credits: <a href="https://www.freepik.com" target="_blank" rel="noopener noreferrer">Freepik</a></p>
                 </div>
                 <div class="carousel-item">
-                    <img src="https://cdn.pixabay.com/photo/2015/06/23/23/14/laptop-819285_640.jpg" loading="lazy" class="d-block w-50 w-md-50 w-lg-50 mx-auto" alt="...">
+                    <img src="https://cdn.pixabay.com/photo/2018/10/04/14/22/reading-3723751_1280.jpg" loading="lazy" class="d-block w-50 w-md-50 w-lg-50 mx-auto" alt="...">
                 </div>
                 <div class="carousel-item">
-                    <img src="https://img.freepik.com/premium-photo/books-enter-into-screen-e-book_207634-4021.jpg?uid=R119216580&ga=GA1.1.580236151.1744880179&semt=ais_hybrid&w=740" class="d-block w-50 w-md-50 w-lg-50 mx-auto" loading="lazy" alt="...">
+                    <img src="https://cdn.pixabay.com/photo/2017/08/03/00/03/book-2574236_1280.jpg" class="d-block w-50 w-md-50 w-lg-50 mx-auto" loading="lazy" alt="...">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -115,7 +104,7 @@
             <div class="col-md-8">
                 <article class="mb-4 pt-3">
                     <h2 class="fs-4">WELCOME</h2>
-                    <p><small>Published on: April 17, 2025</small></p>
+                    <p><small>Published on: April 4, 2025</small></p>
                     <p>Hello, my fellow novel lovers! Today, we will be diving into a topic that has gained immense popularity in recent years:fiction and web novels.it'ssurprising to see how this forms of storytelling have carved out there own niche in the entertainment world, captivation readers from all works of life. so, sit back relax, grab some chips pack, as we explore this vibriant world together!</p>
                 </article>
 
@@ -189,7 +178,7 @@
     <button id="backToTop" class="btn btn-primary position-fixed bottom-0 end-0 m-3" style="display: none;">Back to Top</button>
 
     <!-- Bootstrap JS -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.4/dist/js/bootstrap.bundle.min.js" integrity="sha384-YUe2LzesAfftltw+PEaao2tjU/QATaW/rOitAq67e0CT0Zi2VVRL0oC4+gAaeBKu" crossorigin="anonymous"></script>
 
     <script>
         // Show the button when scrolling down
@@ -210,5 +199,6 @@
             });
         });
     </script>
+    
 </body>
 </html>
